@@ -1,0 +1,7 @@
+Requirements
+
+networkx==1.11
+numpy==1.11.2
+gensim==0.13.3
+Scikit-learn=0.18.2
+Tensorflow=0.8.0
