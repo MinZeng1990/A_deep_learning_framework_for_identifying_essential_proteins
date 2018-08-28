@@ -5,10 +5,10 @@ train_eval_rate = 0.8
 
 class DataMaster(object):
     def __init__(self):
-        self.datasets = np.load('../data/protein_matrix.npy')
-        self.dataembs = np.load('../data/protein_emb.npy')
-        self.datalocs = np.load('../data/protein_loc.npy')
-        self.datalabels = np.load('../data/protein_label.npy')
+        self.datasets = np.load('./data/protein_matrix.npy')
+        self.dataembs = np.load('./data/protein_emb.npy')
+        self.datalocs = np.load('./data/protein_loc.npy')
+        self.datalabels = np.load('./data/protein_label.npy')
         self.training_size = int(train_eval_rate * len(self.datasets))
         self.train_X = self.datasets[:self.training_size]
         self.train_E = self.dataembs[:self.training_size]
