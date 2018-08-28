@@ -83,5 +83,4 @@ with tf.Session() as sess:
                 print("auc_socre %.6f" % metrics.auc(fpr, tpr))
 
         c = validataion()
-    with open('../plot_cache/without_expression.pkl', mode='wb') as file:
-        pickle.dump(c, file)
+   
