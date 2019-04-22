@@ -29,6 +29,7 @@ gensim==0.13.3
   You can run the main function to see the resluts and predict the essential proteins.
  
 # Citation
+Zeng, M., Li, M., Fei, Z., Wu, F., Li, Y., Pan, Y., & Wang, J. (2019). A deep learning framework for identifying essential proteins by integrating multiple types of biological information. IEEE/ACM transactions on computational biology and bioinformatics. DOI: 10.1109/TCBB.2019.2897679
 
 # License
 This project is licensed under the MIT License - see the LICENSE.txt file for details
